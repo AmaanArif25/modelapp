@@ -28,7 +28,7 @@ fertilizer_model = pickle.load(open('fertilizer_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('AI in Agriculture',
+    selected = option_menu('भूमित्र',
                           
                           ['Crop Recommendation Prediction',
                            'Fertilizer Recommendation Prediction'],
@@ -123,7 +123,7 @@ if (selected == 'Fertilizer Recommendation Prediction'):
 
     
 # Define the message
-message = "Created by Amaan Arif"
+message = "Created by ❤️ Amaan Arif"
 
 # Display the message in the sidebar
 st.sidebar.markdown(message)
